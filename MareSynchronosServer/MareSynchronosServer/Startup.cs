@@ -303,7 +303,8 @@ public class Startup
             MetricsAPI.GaugeUserPairCacheUsers,
             MetricsAPI.GaugeGposeLobbies,
             MetricsAPI.GaugeGposeLobbyUsers,
-            MetricsAPI.GaugeHubConcurrency
+            MetricsAPI.GaugeHubConcurrency,
+            MetricsAPI.GaugeHubQueuedConcurrency,
         }));
     }
 
