@@ -49,4 +49,5 @@ public class MetricsAPI
     public const string GaugeGposeLobbies = "mare_gpose_lobbies";
     public const string GaugeGposeLobbyUsers = "mare_gpose_lobby_users";
     public const string GaugeHubConcurrency = "mare_free_concurrent_hub_calls";
+    public const string GaugeHubQueuedConcurrency = "mare_free_concurrent_queued_hub_calls";
 }

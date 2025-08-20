@@ -48,7 +48,7 @@ public class SignalRLimitFilter : IHubFilter
     }
 
     // Optional method
-    public async Task OnConnectedAsync(HubLifetimeContext context, Func<HubLifetimeContext, Task> next)
+    /* public async Task OnConnectedAsync(HubLifetimeContext context, Func<HubLifetimeContext, Task> next)
     {
         await ConnectionLimiterSemaphore.WaitAsync().ConfigureAwait(false);
         try
@@ -108,5 +108,5 @@ public class SignalRLimitFilter : IHubFilter
         {
             DisconnectLimiterSemaphore.Release();
         }
-    }
+    } */
 }

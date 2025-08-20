@@ -122,7 +122,7 @@ public class Startup
             hubOptions.MaximumParallelInvocationsPerClient = 10;
             hubOptions.StreamBufferCapacity = 200;
 
-            hubOptions.AddFilter<SignalRLimitFilter>();
+            //hubOptions.AddFilter<SignalRLimitFilter>();
             hubOptions.AddFilter<ConcurrencyFilter>();
         }).AddMessagePackProtocol(opt =>
         {
