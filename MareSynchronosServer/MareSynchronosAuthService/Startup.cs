@@ -53,7 +53,7 @@ public class Startup
             foreach (var source in endpoints.DataSources.SelectMany(e => e.Endpoints).Cast<RouteEndpoint>())
             {
                 if (source == null) continue;
-                _logger.LogInformation("Endpoint: {url} ", source.RoutePattern.RawText);
+                _logger.LogError("Endpoint: {url} ", source.RoutePattern.RawText);
             }
         });
     }
