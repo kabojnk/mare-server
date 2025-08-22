@@ -30,6 +30,21 @@ public class JwtController : AuthControllerBase
     public async Task<IActionResult> CreateToken(string auth, string charaIdent)
     {
         using var dbContext = await MareDbContextFactory.CreateDbContextAsync();
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
+        Logger.LogError("RUNNING CREATE TOKEN!!!!!!");
         return await AuthenticateInternal(dbContext, auth, charaIdent).ConfigureAwait(false);
     }
 

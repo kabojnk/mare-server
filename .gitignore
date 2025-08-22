@@ -351,3 +351,6 @@ MigrationBackup/
 
 # docker run data
 Docker/run/data/
+
+.idea
+**/.idea
